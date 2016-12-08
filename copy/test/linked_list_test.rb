@@ -96,6 +96,7 @@ class LinkedListTest < Minitest::Test
     list.pop
     list.pop
     list.to_string
+    binding.pry
   end
 
   end
