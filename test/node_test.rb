@@ -5,7 +5,6 @@ require 'pry'
 
 class NodeTest < Minitest::Test
 
-# Iteration 0 - Node Basics
   def test_node_is_a_class
     node = Node.new("slurp")
     assert_equal Node, node.class
@@ -21,5 +20,4 @@ class NodeTest < Minitest::Test
     assert_equal nil, node.next_node
   end
 
-# Iteration 1
 end

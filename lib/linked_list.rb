@@ -2,7 +2,6 @@ require 'pry'
 require_relative 'node'
 
 class LinkedList
-  # attr_accessor :head
   attr_reader :head, :count
 
   def initialize
